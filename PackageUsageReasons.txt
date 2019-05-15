@@ -1,0 +1,1 @@
+1. React Router (react-router-dom) is used to provide easier and faster navigation and view-loading.

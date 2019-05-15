@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "type": "vegetable",
+            "name": "Cucumbers",
+            "image": "1-cucumbers.png",
+            "price": 1.23
+        },
+        {
+            "id": 2,
+            "type": "vegetable",
+            "name": "Tomatoes",
+            "image": "2-tomatoes.png",
+            "price": 3.21
+        },
+        {
+            "id": 3,
+            "type": "vegetable",
+            "name": "Potatoes from Country",
+            "image": "3-potatoes.png",
+            "price": 4.20
+        },
+        {
+            "id": 4,
+            "type": "unit",
+            "name": "500 ml water bottle",
+            "image": "4-water-500ML.png",
+            "price": 0.29
+        },
+        {
+            "id": 5,
+            "type": "unit",
+            "name": "1L water bottle",
+            "image": "4-water-500ML.png",
+            "price": 1.29
+        },
+        {
+            "id": 6,
+            "type": "vegetable",
+            "name": "Potatoes from Another Country",
+            "image": "3-potatoes.png",
+            "price": 4.19
+        },
+        {
+            "id": 7,
+            "type": "vegetable",
+            "name": "Cucumbers Smaller",
+            "image": "1-cucumbers.png",
+            "price": 2.00
+        },
+        {
+            "id": 8,
+            "type": "vegetable",
+            "name": "Tomatoes Premium",
+            "image": "2-tomatoes.png",
+            "price": 3.99
+        },
+        {
+            "id": 5,
+            "type": "unit",
+            "name": "0.5L Diet water bottle",
+            "image": "4-water-500ML.png",
+            "price": 9.00
+        }
+    ]
+
+}
