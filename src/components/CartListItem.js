@@ -1,9 +1,9 @@
 import React, { Component, button } from "react";
  
-class ProductListItem extends Component {
+class CartListItem extends Component {
   render() {
     return (
-      <div style={{margin: '20px', height: '200px', width:'200px'}}>
+      <div style={{marginBottom: '100px', height: 'auto', width:'auto', border: "solid", position: "relative", textAlign: 'center', backgroundColor: "#746c14" }}>
         <img
           height={100}
           title={this.props.product.name}
@@ -12,10 +12,11 @@ class ProductListItem extends Component {
         />
         <h3>{ this.props.product.name }</h3>
         <h3>{ this.props.product.price.toFixed(2) }{this.props.product.type === "unit" ? "€" : "€/kg"}</h3>
-        <button onClick={()=>this.props.handleAdding(this.props.product)}>Add to cart</button>
+        <h3>Quantity {this.props.product.quantity}</h3>
+        <button onClick={()=>this.props.handleRemoving(this.props.product)}>Remove</button>
       </div>
     );
   }
 }
  
-export default ProductListItem;
+export default CartListItem;
